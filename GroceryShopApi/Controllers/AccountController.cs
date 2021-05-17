@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace GroceryShopApi.Controllers
 {
-    [Route("accout")]
+    [Route("account")]
     public class AccountController : ControllerBase
     {
         private readonly UserManager<ApplicationUser> _userManager;
